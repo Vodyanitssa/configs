@@ -1,0 +1,31 @@
+[http]
+	proxy = http://127.0.0.1:7897
+[https]
+	proxy = http://127.0.0.1:7897
+[user]
+	name = cgy
+	email = guanyuchen.cs@gmail.com
+[color]
+	ui = true
+[core]
+	editor = nvim
+	quotepath = false
+	fileMode = false
+[init]
+	defaultBranch = main
+[help]
+	autocorrect = 20
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	lg = log --graph --decorate --oneline --all
+[diff]
+	colorMoved = dimmed-zebra
+[fetch]
+	prune = true
+[pull]
+	rebase = true
+[branch]
+	sort = -committerdate

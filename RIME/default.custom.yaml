@@ -1,0 +1,10 @@
+patch:
+  "style/font_point": 14
+  "style/label_point": 14
+  "style/candidate_point": 16
+  "switches/@0/reset": 1
+  schema_list:
+    - schema: double_pinyin_flypy
+  menu:
+    page_size: 9
+
