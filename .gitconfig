@@ -20,7 +20,7 @@
 	co = checkout
 	br = branch
 	ci = commit
-	lg = log --graph --decorate --oneline --all
+	lg = log --graph --decorate --format=medium --date=format-local:'%Y-%m-%d %H:%M:%S' --all
 [diff]
 	colorMoved = dimmed-zebra
 [fetch]
