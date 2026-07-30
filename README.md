@@ -7,6 +7,7 @@ Personal configuration files for various tools.
 | Config | Source | Target |
 |--------|--------|--------|
 | Git config | `git/config` | `~/.config/git/config` (always copied) |
+| Git ignore | `git/ignore` | `~/.config/git/ignore` (if directory exists) |
 | mpv | `mpv/mpv.conf` | `~/.config/mpv/mpv.conf` (if directory exists) |
 | RIME (fcitx5) | `RIME/*.yaml` | `~/.local/share/fcitx5/rime/` (if directory exists) |
 | WPS Office (fcitx5) | `wps_office/wps_im.sh` | `/bin/wps` (modifies in-place, requires `wps-office-cn` from AUR + fcitx5) |
@@ -20,6 +21,7 @@ Personal configuration files for various tools.
 The script checks for the existence of target directories before copying:
 
 - `git/config` is always copied to `~/.config/git/config`
+- `git/ignore` is copied to `~/.config/git/ignore` only if `~/.config/git/` exists
 - mpv config is copied only if `~/.config/mpv/` exists
 - RIME configs are copied only if `~/.local/share/fcitx5/rime/` exists
 

@@ -14,6 +14,16 @@ mkdir -p "$GIT_CONFIG_DIR"
 echo "Copying git/config to $GIT_CONFIG_DIR/config"
 cp "$CONFIGS_DIR/git/config" "$GIT_CONFIG_DIR/config"
 
+# git ignore - copy if target exists
+GITIGNORE_TARGET="$HOME/.config/git"
+if [[ -d "$GITIGNORE_TARGET" ]]; then
+  echo "Found git config directory at $GITIGNORE_TARGET"
+  echo "Copying git/ignore to $GITIGNORE_TARGET/ignore"
+  cp "$CONFIGS_DIR/git/ignore" "$GITIGNORE_TARGET/ignore"
+else
+  echo "Git config directory not found at $GITIGNORE_TARGET, skipping git ignore"
+fi
+
 # mpv config - copy if ~/.config/mpv exists
 MPV_TARGET="$HOME/.config/mpv"
 if [[ -d "$MPV_TARGET" ]]; then

@@ -1,0 +1,82 @@
+# =====================
+# OS generated files
+# =====================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux desktop
+.directory
+
+
+# =====================
+# Editor / IDE
+# =====================
+
+# VS Code
+.vscode/
+
+# JetBrains IDE
+.idea/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+
+
+# =====================
+# Temporary files
+# =====================
+
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# backup files
+*.old
+
+
+# =====================
+# Language tool caches
+# =====================
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node
+.npm/
+.pnpm-store/
+
+# Rust
+.rustc_info.json
+
+
+# =====================
+# Local environment
+# =====================
+
+.env
+.env.local
+.env.*.local
+
+
+# =====================
+# Debug / profiling
+# =====================
+
+*.log
