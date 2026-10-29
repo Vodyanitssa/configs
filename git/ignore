@@ -87,3 +87,5 @@ __pycache__/
 
 **/.claude/settings.local.json
 compile_commands.json
+
+**/.codeartsdoer
